@@ -3,6 +3,6 @@ const listSuppliers = require('./controllers/suppliers');
 
 const router = express();
 
-router.get('/fornecedores', listSuppliers);
+router.get('/fornecedores/:consumoMensalEnergia', listSuppliers);
 
 module.exports = router
