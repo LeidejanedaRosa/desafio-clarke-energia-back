@@ -1,9 +1,9 @@
 const knex = require('../connection');
 
 const listSuppliers = async (req, res) => {
-    const { consumo_mensal_energia } = req.body
-
-    try {
+    const {consumo_mensal_energia} = req.body
+   
+        try {
         const result = await knex('fornecedores').where('limite_min_kwh', '<=', consumo_mensal_energia).debug();
 
         return res.status(200).json(result)
