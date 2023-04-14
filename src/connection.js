@@ -1,11 +1,12 @@
 const knex= require ('knex')({
     client: 'pg',
     connection: {
-    host: 'lallah.db.elephantsql.com',
-    user: 'lzzbwxjk',
-    password: 'l11RtymR5qfhnIql2QL7Mb2-YRXHmIcw',
-    database: 'lzzbwxjk'
-    }
+    host: process.env.DATABASE_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
+    port: process.env.DB_PORT,
+    ssl:{rejectUnauthorized: false}
 });
 
 module.exports = knex
