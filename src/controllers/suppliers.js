@@ -4,7 +4,7 @@ const listSuppliers = async (req, res) => {
     const {consumoMensalEnergia} = req.params
        
         try {
-        const result = await knex('fornecedores').where('limite_min_kwh', '<=', consumoMensalEnergia).debug();
+        const result = await knex('fornecedores').where('limite_min_kwh', '<=', consumoMensalEnergia);
 
         return res.status(200).json(result)
 
