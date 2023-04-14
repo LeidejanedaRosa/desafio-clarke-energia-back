@@ -26,7 +26,7 @@ A aplicação foi desenvolvida utilizando as seguintes tecnologias:
 - Axios
 - React
 
-### Como rodar
+### Como rodar o projeto localmente
 
 1.  Verifique se o `express` e o `npm` estão instalados
 2.  Copie `.env.example` para o arquivo `.env` e adicione os valores desejados
