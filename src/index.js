@@ -8,4 +8,5 @@ const app = express();
 
 app.use(express.json(),cors(), router);
 
-app.listen(process.env.PORT);
+
+app.listen(process.env.PORT || 4000);
