@@ -1,27 +1,16 @@
 # Desafio Clarke Energia - Consumo de energia mensal
 
 <<<<<<< HEAD
-Aplicação para um serviço de mercado livre de energia sustentável, onde vocÊ pode encontrar um fornecedor que atende a sua demanda mensal de consumo.
+Aplicação para um serviço de mercado livre de energia sustentável, onde você pode encontrar um fornecedor que atende a sua demanda mensal de consumo.
 
 | Vitrine.Dev         |                                                                       |
 | ------------------- | --------------------------------------------------------------------- |
 | :sparkles: Nome     | **Aplicação para um serviço de mercado livre de energia sustentável** |
-| :label: Tecnologias | JavaScript, CSS, HTML, Node.js, Express                               |
+| :label: Tecnologias | JavaScript, CSS, HTML, Node.js, Express, React                        |
 | :rocket: Deploy     | https://desafio-clarke-energia-frontend.vercel.app/                   |
 | :rocket: URL        | https://desafio-clarke-energia-backend-3ueh.vercel.app/               |
+
 =======
-
-Aplicação para um serviço de mercado livre de energia sustentável, onde vocÊ pode encontrar um fornecedor que atende a sua demanda mensal de consumo.
-
-| Vitrine.Dev          |     |
-| -------------------  | --- |
-| :sparkles: Nome      | **Aplicação para um serviço de mercado livre de energia sustentável**
-| :label: Tecnologias  | JavaScript, CSS, HTML, Node.js, Express
-| :rocket: Deploy      | https://desafio-clarke-energia-frontend.vercel.app/
-| :rocket: URL         | https://desafio-clarke-energia-backend-3ueh.vercel.app/
-
-
->>>>>>> 42803a2fe12d1af9205bb995c0d39f8fff186bbf
 
 ## Detalhes do projeto
 
@@ -35,6 +24,7 @@ A aplicação foi desenvolvida utilizando as seguintes tecnologias:
 - Node.js
 - Express
 - Axios
+- React
 
 ### Como rodar
 
