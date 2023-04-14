@@ -1,6 +1,6 @@
 # Desafio Clarke Energia - Consumo de energia mensal
 
-<<<<<<< HEAD
+
 Aplicação para um serviço de mercado livre de energia sustentável, onde você pode encontrar um fornecedor que atende a sua demanda mensal de consumo.
 
 | Vitrine.Dev         |                                                                       |
